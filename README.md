@@ -1,2 +1,0 @@
-# intellipaat-demo
-intellipaat-demo
