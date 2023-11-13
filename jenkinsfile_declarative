@@ -24,9 +24,7 @@ pipeline{
 			   
 			     print ("Delete the old package if present")
 			     sh "rm -rf /usr/local/tomcat/webapps/hello-world-web-app.war"
-				 
-		 	     print ("Show the current user")
-			     sh "whoami"
+		
 			   
 			     print ("copy the new package")
 			     sh "cp /app/deploy_server/workspace/samplePipeline/target/hello-world-web-app.war /usr/local/tomcat/webapps/"	
